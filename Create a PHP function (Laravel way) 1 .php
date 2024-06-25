@@ -12,12 +12,7 @@ namespace App\Services;
 
 class FibonacciGenerator
 {
-    /**
-     * Generates a Fibonacci sequence up to the nth term.
-     *
-     * @param int $length The length of the Fibonacci sequence to generate.
-     * @return array The generated Fibonacci sequence.
-     */
+    
     public function generateSequence(int $length): array
     {
         $sequence = [0, 1]; // Start with the first two terms of the Fibonacci sequence
